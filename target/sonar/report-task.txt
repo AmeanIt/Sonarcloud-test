@@ -1,0 +1,6 @@
+projectKey=SQLPlugin
+serverUrl=http://localhost:9000
+serverVersion=7.9.1.27448
+dashboardUrl=http://localhost:9000/dashboard?id=SQLPlugin
+ceTaskId=AW3Tz73uSoP_GCQ7GdYB
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW3Tz73uSoP_GCQ7GdYB
