@@ -1,14 +1,13 @@
-# Basic Maven Example
+# Java Maven-based project analyzed on SonarCloud using Travis
 
-This simple Maven project is importing JaCoCo's coverage report. For multi-module project example 
-see [multi-module Maven project](../maven-multimodule/README.md)
-        
-## Usage
+[![Build status](https://travis-ci.org/SonarSource/sq-com_example_java-maven-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_java-maven-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples%3Ajava-maven-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples:java-maven-travis-project)
 
-* Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven:
+#### This project is analysed on [SonarCloud](https://sonarcloud.io/dashboard/index/com.sonarqube.examples:java-maven-travis-project)!
 
-        mvn clean verify sonar:sonar
-        
-## Documentation
+It is very easy to run an analysis on a Maven-based project and push it to SonarCloud.
+You simply have to do 2 things in your `.travis.yml` file:
+* Activate the [Travis Add-on](https://docs.travis-ci.com/user/sonarcloud/)
+* Run `mvn sonar:sonar` at some point of time in the `script` section
 
-[SonarScanner for Maven](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-maven/)
+You can take a look at the [.travis.yml file](https://github.com/SonarSource/sq-com_example_java-maven-travis/blob/master/.travis.yml)
+of this project to see it in practice.
